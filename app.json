@@ -1,1 +1,12 @@
-
+{
+ "name": "pagidi-ui",
+ "description": "UI for Pagidi
+project",
+ "scripts": {
+"test": "npm test"
+},
+"env": {},
+"formation": {},
+"addons": [],
+"buildpacks": []
+}
