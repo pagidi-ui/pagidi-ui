@@ -1,28 +1,28 @@
 {
- "name": "pagidi-ui",
- "description": "UIforPagidiproject",
- "scripts":  {
-  "start": "node server.js",
-  "test": "npm test",
-  "build": "npm run build"
+  "name": "pagidi-ui",
+  "description": "UI for Pagidi project",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test",
+    "build": "npm run build"
+  },
   "keywords": ["UI", "Pagidi", "Heroku"],
-"repository": {
-  "type": "git",
-  "url": "https://github.com/pagidi-ui/pagidi-ui.git"
-}
-},
-"env": {
-  "NODE_ENV": "production",
-  "API_URL": "https://github.com/pagidi-ui/pagidi-ui.git"
-},
-"formation": {
-  "web": {
-    "quantity": 1,
-    "size": "free"
-  }
-},
-"addons": [],
-"buildpacks":  [
-  { "url": "heroku/nodejs" }
-]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagidi-ui/pagidi-ui.git"
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "API_URL": "https://github.com/pagidi-ui/pagidi-ui.git"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ]
 }
