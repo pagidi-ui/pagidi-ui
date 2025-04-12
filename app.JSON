@@ -2,9 +2,9 @@
   "name": "pagidi-ui",
   "description": "UI for Pagidi project",
   "scripts": {
-    "start": "node server.js",
-    "test": "npm test",
-    "build": "npm run build"
+    "start": "python app.py",
+    "test": "pytest",
+    "build": "echo 'No build step required for Python project'"
   },
   "keywords": ["UI", "Pagidi", "Heroku"],
   "repository": {
@@ -13,16 +13,17 @@
   },
   "env": {
     "NODE_ENV": "production",
-    "API_URL": "https://github.com/pagidi-ui/pagidi-ui.git"
+    "API_URL": "https://api.pagidi-ui.com"
   },
   "formation": {
     "web": {
+      "gunicorn": "app:pyf",
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "standard-2x"
     }
   },
   "addons": [],
   "buildpacks": [
-    { "url": "heroku/nodejs" }
+    { "url": "heroku/python" }
   ]
 }
