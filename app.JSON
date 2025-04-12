@@ -18,7 +18,7 @@
   "formation": {
     "web": {
 " python"
-      : "app:pyf" ,
+      : "app:pyf",
       "quantity": 1,
       "size": "standard-2x"
     }
