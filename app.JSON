@@ -1,5 +1,5 @@
 {
-  "name": "pagidi-ui",
+  "name": "My Python App",
   "description": "UI for Pagidi project",
   "scripts": {
     "start": "python app.py",
