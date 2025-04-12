@@ -1,1 +1,1 @@
-web: pythonapp.py --bind 0.0.0.0:$PORT
+web: gunicorn --pythonpath app app=pyf
