@@ -19,7 +19,7 @@
     "test": {
       "formation": {
           "test": {
-            "quantity": 1"
+            "quantity": 1,
   "formation": {
     "web": {
 "python": "app:pyf",
