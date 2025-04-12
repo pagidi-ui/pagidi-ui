@@ -17,7 +17,8 @@
   },
   "formation": {
     "web": {
-      "gunicorn": "app:pyf",
+" python"
+      : "app:pyf",
       "quantity": 1,
       "size": "standard-2x"
     }
