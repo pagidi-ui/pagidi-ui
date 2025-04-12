@@ -1,1 +1,1 @@
-web: pyfapp.py --bind 0.0.0.0:$PORT
+web: pythonapp.py --bind 0.0.0.0:$PORT
