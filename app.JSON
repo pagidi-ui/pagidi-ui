@@ -15,6 +15,11 @@
     "NODE_ENV": "production",
     "API_URL": "https://api.pagidi-ui.com"
   },
+"environments": {
+    "test": {
+      "formation": {
+          "test": {
+            "quantity": 1"
   "formation": {
     "web": {
 "python": "app:pyf",
