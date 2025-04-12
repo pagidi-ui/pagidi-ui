@@ -1,1 +1,1 @@
-web: gunicorn app:pyf --bind 0.0.0.0:$PORT
+web: pyfapp.py --bind 0.0.0.0:$PORT
