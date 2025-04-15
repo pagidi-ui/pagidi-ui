@@ -22,5 +22,11 @@ class TestSample(unittest.TestCase):
     def test_floor_division(self):
         self.assertEqual(10 // 3, 3)
 
+    def test_string_concatenation(self):
+        self.assertEqual("Hello " + "World", "Hello World")
+
+    def test_list_length(self):
+        self.assertEqual(len([1, 2, 3, 4]), 4)
+
 if __name__ == '__main__':
     unittest.main()
