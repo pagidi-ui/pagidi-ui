@@ -10,5 +10,11 @@ class TestSample(unittest.TestCase):
     def test_division(self):
         self.assertEqual(10 / 2, 5)
 
+    def test_subtraction(self):
+        self.assertEqual(10 - 5, 5)
+
+    def test_modulus(self):
+        self.assertEqual(10 % 3, 1)
+
 if __name__ == '__main__':
     unittest.main()
