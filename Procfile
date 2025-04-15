@@ -1,1 +1,2 @@
-web: gunicorn --pythonpath app app=pyf
+web: python app.py
+worker: python worker.py
