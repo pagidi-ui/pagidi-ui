@@ -1,5 +1,4 @@
 # Trigger workflow
-# Trigger workflow
 
 This section explains how to trigger the workflow for this project.
 
