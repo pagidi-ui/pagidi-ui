@@ -3,17 +3,17 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - pagidi-ui
   pull_request:
     branches:
-      - main
+      - pagidi-ui
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
+      # Check out the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
