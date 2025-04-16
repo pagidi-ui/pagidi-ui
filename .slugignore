@@ -7,6 +7,15 @@ htmlcov/
 .coverage
 *.coverage
 tmp/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest_cache/
+htmlcov/
+.coverage
+*.coverage
+tmp/
 *.log
 .git/
 .gitignore
