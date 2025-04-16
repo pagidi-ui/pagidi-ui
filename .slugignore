@@ -1,4 +1,6 @@
-tests/
-docs/
-*.log
-*.md
+node_modules/
+.git/
+.env
+tmp/
+*.bak
+*.gz
