@@ -6,4 +6,4 @@ Pagidi UI is a user interface project designed to provide a seamless experience 
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pagidi-ui/pagidi-ui.git
