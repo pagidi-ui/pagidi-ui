@@ -8,14 +8,17 @@ __pycache__/
 env/
 venv/
 
-# Exclude test-related files
-tests/
+# Exclude test-related temporary files
 .pytest_cache/
 htmlcov/
 .coverage
 *.coverage
 .tox/
 .nox/
+
+# Include the 'tests/' directory for Heroku CI to run tests
+# Commented out the exclusion for tests/
+# tests/
 
 # Exclude logs
 *.log
@@ -29,7 +32,7 @@ dist/
 *.egg
 *.whl
 
-# Exclude environment and dependency files
+# Exclude environment and dependency lock files (except for critical use cases)
 *.env
 .env.*
 requirements.txt.lock
