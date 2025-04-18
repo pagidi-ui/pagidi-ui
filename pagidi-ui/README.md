@@ -10,7 +10,7 @@ Pagidi UI is a user interface project designed to provide a seamless experience 
    ```
 2. Navigate to the project directory:
    ```
-   cd pagidi-ui
+   cd PAGIDI-UI
    ```
 3. Create a .env file in the root directory and populate it with the necessary configuration settings.
 
