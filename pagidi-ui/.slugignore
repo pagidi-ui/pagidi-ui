@@ -1,11 +1,12 @@
-# Exclude Python cache files
+# Exclude Python bytecode files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 
 # Exclude virtual environments
 .venv/
 env/
+venv/
 
 # Exclude test-related files
 tests/
@@ -13,23 +14,52 @@ tests/
 htmlcov/
 .coverage
 *.coverage
+.tox/
+.nox/
 
 # Exclude logs
 *.log
+*.out
+*.err
 
-# Exclude build artifacts
+# Exclude build and distribution artifacts
 build/
 dist/
 *.egg-info/
 *.egg
+*.whl
+
+# Exclude environment and dependency files
+*.env
+.env.*
+requirements.txt.lock
+poetry.lock
+Pipfile.lock
 
 # Exclude editor and OS-specific files
 .vscode/
 .idea/
 *.swp
 *.bak
-*.gz
+*.tmp
+*.DS_Store
+Thumbs.db
 
 # Exclude Git files
 .git/
 .gitignore
+.gitattributes
+
+# Exclude Docker and container-specific files
+Dockerfile
+docker-compose.yml
+*.container-env
+
+# Exclude miscellaneous binary or temporary files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.tmp
+*.bak
