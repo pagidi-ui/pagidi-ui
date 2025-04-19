@@ -3,6 +3,7 @@ flask==2.2.5
 fqdn==1.5.1
 importlib-metadata==8.0.0
 ipython-pygments-lexers==1.1.1
+ipython==9.0.2
 isoduration==20.11.0
 jaraco.collections==5.1.0
 jsonpointer==3.0.0
